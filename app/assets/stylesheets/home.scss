@@ -1,0 +1,89 @@
+/*green-main: 007f00*/
+.header-container{
+	background-color: red !important;
+	height: 100vh;
+}
+.content-container{
+	background-color: white !important;
+	height: 100vh;	
+	border-bottom: 1px dashed #007f00;
+}
+.footer-container{
+	background-color: black !important;
+	height: 50vh !important;
+}
+.pad-custom{
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+}
+.down-bar{
+	position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	height:60px;
+	position: fixed;
+	background-color: white;
+	width: 100vw;
+	z-index: 1;
+	opacity: 1.0;
+	filter: blur(0px);
+	border-bottom: 1px solid #007f00;
+}
+.down-bar-scroll{
+	background-color: white;
+	opacity: 0.5;
+	filter: blur(1px);
+}
+.logo{
+	height: 60px;
+	float: left;
+}
+.action-bar{
+	height: 60px;
+	float: right;	
+	opacity: 1.0 !important;
+}
+.accedi{
+	height: 60px;
+	float: right;
+}
+.language{
+	margin-top: 10px;
+	height: 40px;
+	float: right;
+	border-right: 1px solid #ccc;
+	padding-top: 6px !important;	
+}
+.flag{
+	width: 20px;
+}
+.user-profile{
+	width: 22px;
+	margin-top: 15px;
+}
+
+.user-login-link{
+	position: relative;
+	top: 10px;
+	font-family: 'Varela Round';
+	color: #007f00 !important; 
+}
+.information-app{
+	float: left;
+	text-align: center;
+}
+.information-app-header{
+	padding-top: 30px;
+	padding-bottom: 30px;
+	text-align: center;
+	color: #007f00;
+}
